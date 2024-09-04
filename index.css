@@ -8,11 +8,26 @@ body{
     padding-right: 5px;*/
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 800px;
     height: auto;
     background-color: white;
     border-radius:15px; 
     overflow-x:hidden;
+}
+@media(min-width: 768px){
+    .container{
+        width: 750px;
+    }
+}
+@media(min-width: 992px){
+    .container{
+        width: 970px;
+    }
+}
+@media(min-width: 1200px){
+    .container{
+        width: 1170px;
+    }
 }
 
 #check{
