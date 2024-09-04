@@ -451,8 +451,8 @@ ul li i:hover, .search:hover{
     width: 200px;
     height: 200px;
     margin-right: 53px;
-    margin-left: 30px;
-    margin-bottom:auto;
+    margin-left: auto;
+    margin-bottom:35px;
     border-radius: 15px;
 }
 
