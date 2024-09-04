@@ -133,7 +133,7 @@ body{
     right: -320px;
     top:0;
     width: 320px;
-    height: 460px;
+    height: 470px;
     border-radius:16px;
     box-shadow: -1px 26px 12px #00000040;
     z-index: 5;
@@ -452,6 +452,7 @@ ul li i:hover, .search:hover{
     height: 200px;
     margin-right: 53px;
     margin-left: auto;
+    margin-bottom:10px;
     border-radius: 15px;
 }
 
