@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #33d6ff;
+}
+.container{
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 100%;
+    background-color: white;
+    border-radius:20px; 
+    text-align: center;
+}
+h2{
+   padding: 10px;
+    user-select: none;
+}
+input{
+    direction: rtl;
+    width: 220px;
+    height: 35px;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+input:hover{
+    border-color:  #33d6ff;
+}
+span{
+    color: red;
+    display: block;
+    margin-top: 4px;
+    user-select: none;
+}
+ button{
+    width: 220px;
+    height: 35px;
+     margin: 25px;
+    font-size: 20px;
+    box-shadow: 0 9px 3px black;
+    cursor: pointer;
+}
+button:active{
+    box-shadow: none;
+}

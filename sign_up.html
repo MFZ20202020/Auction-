@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+       <title>Sign_up</title>
+       <link rel="stylesheet" href="sign_up.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/> 
+    </head>
+    <body>
+        <div class="container">
+          <img src="auction.png">
+           <form id="form" action="" >
+               <h2>مرحباً بك في المزاد</h2>
+               
+               <div class="form_content">
+                   <input type="text" id="name" placeholder="أدخل لإسم المستخدم">
+                   <i class="fa-solid fa-user" id="name_icon"></i>
+                   <span id="name_error"></span>
+               </div> 
+                               
+                  <div class="form_content">
+                   <input type=email id="email" placeholder="البريد الإلكتروني">
+                   <i class="fa-solid fa-envelope" id="email_icon"></i>
+                   <span id="email_error"></span>
+               </div>  
+                              
+                  <div class="form_content">
+                   <input type=password id="password" placeholder="كلمة المرور">
+                   <i class="fa-solid fa-lock" id="pass_icon"></i>
+                   <span id="pass_error"></span>
+               </div>
+               
+                   <div class="form_content">
+                   <input type=password id="password_repeat" placeholder="أعد كتابة كلمة مرورك">
+                   <i class="fa-solid fa-lock" id="pass_icon"></i>
+                   <span id="repeat_error"></span>
+               </div>
+               
+               <button type="submit" title="إنقر للإرسال">موافق</button>
+
+           </form>
+          <script src="sign_up.js"></script>
+       </div> 
+    </body>
+</html>

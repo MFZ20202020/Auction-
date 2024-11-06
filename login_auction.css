@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #33d6ff;
+}
+.container{
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 390px;
+    height: 100%;
+    background-color: white;
+    border-radius:20px; 
+    text-align: center;
+}
